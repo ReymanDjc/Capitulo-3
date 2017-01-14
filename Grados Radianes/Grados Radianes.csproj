@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2965D010-6ED3-422E-9F0B-81D725F48AE7}</ProjectGuid>
+    <ProjectGuid>{1D2A6EE9-DD9A-497A-BCDB-6B45A49DAC0A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Par_Impar</RootNamespace>
-    <AssemblyName>Par_Impar</AssemblyName>
+    <RootNamespace>Grados_Radianes</RootNamespace>
+    <AssemblyName>Grados Radianes</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

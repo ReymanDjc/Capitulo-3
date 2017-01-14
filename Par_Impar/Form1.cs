@@ -15,5 +15,27 @@ namespace Par_Impar
         {
             InitializeComponent();
         }
+
+        private void CalcularNumeroButton_Click(object sender, EventArgs e)
+        {
+            int Numero;
+            Numero = int.Parse(DigiteNumeroTextBox.Text);
+
+            if (Numero % 2 == 0)
+
+                ResultadoTextBox.Text = " par".ToString();
+            else
+                ResultadoTextBox.Text = "impar".ToString();
+
+        }
+        private void Limpiar()
+        {
+            DigiteNumeroTextBox.Clear();
+            ResultadoTextBox.Clear();
+        }
+        private void BorrarBotton_Click(object sender, EventArgs e)
+        {
+            Limpiar();
+        }
     }
 }
